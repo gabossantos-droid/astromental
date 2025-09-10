@@ -3,7 +3,7 @@ version: '3.8'
 services:
   backend:
     build: 
-      context: https://github.com/gabossantos-droid/astromental.git
+      context: https://github.com/gabossantos-droid/astromental.git#master
       dockerfile: backend/Dockerfile
     container_name: astro-backend
     environment:
@@ -30,7 +30,7 @@ services:
 
   frontend:
     build:
-      context: https://github.com/gabossantos-droid/astromental.git
+      context: https://github.com/gabossantos-droid/astromental.git#master
       dockerfile: frontend/Dockerfile
     container_name: astro-frontend
     depends_on:
