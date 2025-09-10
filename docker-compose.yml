@@ -15,8 +15,11 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.astro-backend.rule=Host(`app.saudemental.icu`) && PathPrefix(`/api`)"
-      - "traefik.http.routers.astro-backend.tls=true"
-      - "traefik.http.routers.astro-backend.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.astro-backend-secure.rule=Host(`app.saudemental.icu`) && PathPrefix(`/api`)"
+      - "traefik.http.routers.astro-backend-secure.tls=true"
+      - "traefik.http.routers.astro-backend-secure.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.astro-backend-secure.entrypoints=websecure"
+      - "traefik.http.routers.astro-backend.entrypoints=web"
       - "traefik.http.services.astro-backend.loadbalancer.server.port=8081"
       - "traefik.docker.network=wegetnet"
     command: >
@@ -48,8 +51,11 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.astro-frontend.rule=Host(`app.saudemental.icu`)"
-      - "traefik.http.routers.astro-frontend.tls=true"
-      - "traefik.http.routers.astro-frontend.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.astro-frontend-secure.rule=Host(`app.saudemental.icu`)"
+      - "traefik.http.routers.astro-frontend-secure.tls=true"
+      - "traefik.http.routers.astro-frontend-secure.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.astro-frontend-secure.entrypoints=websecure"
+      - "traefik.http.routers.astro-frontend.entrypoints=web"
       - "traefik.http.services.astro-frontend.loadbalancer.server.port=80"
       - "traefik.docker.network=wegetnet"
     volumes:
