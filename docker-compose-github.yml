@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  backend:
+    build: 
+      context: https://github.com/gabossantos-droid/astromental.git
+      dockerfile: backend/Dockerfile
+    container_name: astro-backend
+    environment:
+      - NODE_ENV=production
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - sessions_data:/app
+    restart: unless-stopped
+    networks:
+      - traefik
+      - astro-network
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.astro-backend.rule=Host(`app.saudemental.icu`) && PathPrefix(`/api`)"
+      - "traefik.http.routers.astro-backend.tls=true"
+      - "traefik.http.routers.astro-backend.tls.certresolver=letsencrypt"
+      - "traefik.http.services.astro-backend.loadbalancer.server.port=8081"
+      - "traefik.docker.network=traefik"
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:8081/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    build:
+      context: https://github.com/gabossantos-droid/astromental.git
+      dockerfile: frontend/Dockerfile
+    container_name: astro-frontend
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - traefik
+      - astro-network
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.astro-frontend.rule=Host(`app.saudemental.icu`)"
+      - "traefik.http.routers.astro-frontend.tls=true"
+      - "traefik.http.routers.astro-frontend.tls.certresolver=letsencrypt"
+      - "traefik.http.services.astro-frontend.loadbalancer.server.port=80"
+      - "traefik.docker.network=traefik"
+
+volumes:
+  sessions_data:
+    driver: local
+
+networks:
+  traefik:
+    external: true
+  astro-network:
+    driver: bridge
