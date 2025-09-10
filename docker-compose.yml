@@ -2,15 +2,13 @@ version: '3.8'
 
 services:
   backend:
-    build: 
-      context: https://github.com/gabossantos-droid/astromental.git#master
-      dockerfile: backend/Dockerfile
-    container_name: astro-backend
+    image: node:18-alpine
+    working_dir: /app
     environment:
       - NODE_ENV=production
       - OPENAI_API_KEY=${OPENAI_API_KEY}
     volumes:
-      - sessions_data:/app
+      - sessions_data:/app/data
     restart: unless-stopped
     networks:
       - traefik
@@ -22,6 +20,17 @@ services:
       - "traefik.http.routers.astro-backend.tls.certresolver=letsencrypt"
       - "traefik.http.services.astro-backend.loadbalancer.server.port=8081"
       - "traefik.docker.network=traefik"
+    command: >
+      sh -c "
+        echo 'Baixando código do GitHub...' &&
+        apk add --no-cache git &&
+        git clone https://github.com/gabossantos-droid/astromental.git /tmp/repo &&
+        cp -r /tmp/repo/backend/* /app/ &&
+        echo 'Instalando dependências...' &&
+        npm install &&
+        echo 'Iniciando servidor...' &&
+        node server.js
+      "
     healthcheck:
       test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:8081/health"]
       interval: 30s
@@ -29,12 +38,7 @@ services:
       retries: 3
 
   frontend:
-    build:
-      context: https://github.com/gabossantos-droid/astromental.git#master
-      dockerfile: frontend/Dockerfile
-    container_name: astro-frontend
-    depends_on:
-      - backend
+    image: nginx:alpine
     restart: unless-stopped
     networks:
       - traefik
@@ -46,9 +50,30 @@ services:
       - "traefik.http.routers.astro-frontend.tls.certresolver=letsencrypt"
       - "traefik.http.services.astro-frontend.loadbalancer.server.port=80"
       - "traefik.docker.network=traefik"
+    volumes:
+      - frontend_data:/usr/share/nginx/html
+    command: >
+      sh -c "
+        echo 'Baixando código do GitHub...' &&
+        apk add --no-cache git nodejs npm &&
+        git clone https://github.com/gabossantos-droid/astromental.git /tmp/repo &&
+        cd /tmp/repo/frontend &&
+        echo 'Instalando dependências...' &&
+        npm install &&
+        echo 'Fazendo build...' &&
+        npm run build &&
+        echo 'Copiando arquivos...' &&
+        cp -r build/* /usr/share/nginx/html/ &&
+        echo 'Configurando nginx...' &&
+        cp nginx.conf /etc/nginx/conf.d/default.conf &&
+        echo 'Iniciando nginx...' &&
+        nginx -g 'daemon off;'
+      "
 
 volumes:
   sessions_data:
+    driver: local
+  frontend_data:
     driver: local
 
 networks:
