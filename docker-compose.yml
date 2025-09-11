@@ -48,7 +48,7 @@ services:
       - "traefik.http.routers.astro-frontend.tls.certresolver=letsencrypt"
       - "traefik.http.routers.astro-frontend.entrypoints=websecure"
       - "traefik.http.routers.astro-frontend.priority=100"
-      - "traefik.http.services.astro-frontend.loadbalancer.server.port=8280"
+      - "traefik.http.services.astro-frontend.loadbalancer.server.port=80"
       - "traefik.docker.network=wegetnet"
       - "traefik.http.routers.astro-frontend-insecure.rule=Host(`app.saudemental.icu`)"
       - "traefik.http.routers.astro-frontend-insecure.entrypoints=web"
