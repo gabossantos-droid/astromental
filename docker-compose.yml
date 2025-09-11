@@ -18,7 +18,7 @@ services:
       - traefik.http.routers.astro-backend.priority=1
       - traefik.http.routers.astro-backend.tls.certresolver=letsencryptresolver
       - traefik.http.routers.astro-backend.service=evolution
-      - traefik.http.services.astro-backend.loadbalancer.server.port=8080
+      - traefik.http.services.astro-backend.loadbalancer.server.port=8081
       - traefik.http.services.astro-backend.loadbalancer.passHostHeader=true
     command: >
       sh -c "
@@ -32,7 +32,7 @@ services:
         node server.js
       "
     healthcheck:
-      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:8080/health"]
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:8081/health"]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -54,7 +54,7 @@ services:
       - traefik.http.routers.astro-frontend.priority=1
       - traefik.http.routers.astro-frontend.tls.certresolver=letsencryptresolver
       - traefik.http.routers.astro-frontend.service=evolution
-      - traefik.http.services.astro-frontend.loadbalancer.server.port=8080
+      - traefik.http.services.astro-frontend.loadbalancer.server.port=80
       - traefik.http.services.astro-frontend.loadbalancer.passHostHeader=true
     volumes:
       - frontend_data:/usr/share/nginx/html
