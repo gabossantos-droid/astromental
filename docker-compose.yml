@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   backend:
-    build: ./backend
+    image: node:18-alpine
     working_dir: /app
     environment:
       - NODE_ENV=production
@@ -25,6 +25,17 @@ services:
       - "traefik.http.routers.astro-backend-insecure.entrypoints=web"
       - "traefik.http.routers.astro-backend-insecure.middlewares=redirect-to-https"
       - "traefik.http.routers.astro-backend-insecure.priority=100"
+    command: >
+      sh -c "
+        echo 'Baixando código do GitHub...' &&
+        apk add --no-cache git &&
+        git clone https://github.com/gabossantos-droid/astromental.git /tmp/repo &&
+        cp -r /tmp/repo/backend/* /app/ &&
+        echo 'Instalando dependências...' &&
+        npm install &&
+        echo 'Iniciando servidor...' &&
+        node server.js
+      "
     healthcheck:
       test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:8081/health"]
       interval: 30s
@@ -45,7 +56,7 @@ services:
       - "traefik.enable=true"
       - "traefik.http.routers.astro-frontend.rule=Host(`app.saudemental.icu`)"
       - "traefik.http.routers.astro-frontend.tls=true"
-      - "traefik.http.routers.astro-frontend.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.astro-frontend.tls.certresolver=letsencryptresolver"
       - "traefik.http.routers.astro-frontend.entrypoints=websecure"
       - "traefik.http.routers.astro-frontend.priority=100"
       - "traefik.http.services.astro-frontend.loadbalancer.server.port=80"
