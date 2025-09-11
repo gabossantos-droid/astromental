@@ -2,19 +2,7 @@ version: '3.8'
 
 services:
   backend:
-    image: no    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.astro-frontend.rule=Host(`app.saudemental.icu`)"
-      - "traefik.http.routers.astro-frontend.tls=true"
-      - "traefik.http.routers.astro-frontend.tls.certresolver=letsencryptresolver"
-      - "traefik.http.routers.astro-frontend.entrypoints=websecure"
-      - "traefik.http.routers.astro-frontend.priority=100"
-      - "traefik.http.services.astro-frontend.loadbalancer.server.port=80"
-      - "traefik.docker.network=wegetnet"
-      - "traefik.http.routers.astro-frontend-insecure.rule=Host(`app.saudemental.icu`)"
-      - "traefik.http.routers.astro-frontend-insecure.entrypoints=web"
-      - "traefik.http.routers.astro-frontend-insecure.middlewares=redirect-to-https"
-      - "traefik.http.routers.astro-frontend-insecure.priority=100"
+    image: node:18-alpine
     working_dir: /app
     environment:
       - NODE_ENV=production
