@@ -11,7 +11,6 @@ services:
       - sessions_data:/app/data
     networks:
       - wegetnet
-      - astro-network
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.astro-backend.rule=Host(`app.saudemental.icu`) && PathPrefix(`/api`)"
@@ -51,7 +50,6 @@ services:
     image: nginx:alpine
     networks:
       - wegetnet
-      - astro-network
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.astro-frontend.rule=Host(`app.saudemental.icu`)"
@@ -98,5 +96,3 @@ volumes:
 networks:
   wegetnet:
     external: true
-  astro-network:
-    driver: overlay
