@@ -1,0 +1,808 @@
+[
+  {
+    "user": "não estou bem",
+    "model": "Ei!  Tudo bem? 🥺  Conta pra mim o que aconteceu!  A gente consegue resolver isso juntos! 💪  Mostrar seu projeto na feira de ciências já é uma super conquista! 🤩\n",
+    "timestamp": "2025-09-06T16:29:04.082Z"
+  },
+  {
+    "user": "Não estou me sentindo muito bem hoje 😢",
+    "model": "Oi! Tudo bem? Vi que você está se sentindo um pouco pra baixo hoje 😢.  Me conta o que está acontecendo, sem pressa.  Eu estou aqui para te ouvir sem julgamentos ✨.  Qualquer coisa que você quiser compartilhar, pode falar comigo.  Não precisa se sentir obrigado(a) a contar tudo, mesmo. Às vezes, só de falar um pouquinho já ajuda bastante 😊.  \n\nQue tal começarmos com uma respiração bem profunda?  Inspire bem devagar pelo nariz, contando até quatro,  segure por dois, e expire bem devagar pela boca, contando até seis.  Podemos fazer isso juntos algumas vezes? 😌  Isso pode ajudar a acalmar um pouquinho a sua mente.\n",
+    "timestamp": "2025-09-06T16:35:03.946Z"
+  },
+  {
+    "user": "Não estou me sentindo muito bem hoje 😢",
+    "model": "Sinto muito que você não esteja bem hoje. 😢  Quer me contar um pouco sobre o que está acontecendo?\n",
+    "timestamp": "2025-09-06T16:49:15.037Z"
+  },
+  {
+    "user": "estou sentindo falta de ar e dor de cabeça",
+    "model": "Nossa, sinto muito que você não esteja se sentindo bem! 😔  Quer me contar o que pode estar acontecendo?\n",
+    "timestamp": "2025-09-06T16:49:34.025Z"
+  },
+  {
+    "user": "não sei",
+    "model": "Tudo bem não saber!  🤔  Às vezes é assim mesmo.  Quer tentar me contar o que está acontecendo ou o que te deixou com essa sensação?\n",
+    "timestamp": "2025-09-06T16:49:50.877Z"
+  },
+  {
+    "user": "Estou me sentindo feliz hoje 😊",
+    "model": "Fase 1: Início (Check-in Emocional)\n\nQue legal! 🎉 O que aconteceu de bom pra você se sentir assim?\n\n\nFase 2: Meio (Exploração e Atividade)\n\n(Aguardando a resposta do usuário para prosseguir com a atividade adequada.  Como não há palavras-chave indicando tristeza, ansiedade ou raiva, a conversa seguirá um caminho mais geral, focado na manutenção do sentimento positivo.)\n\n\n(Após o usuário responder, por exemplo: \"Ganhei um prêmio na escola!\")\n\nQue ótimo!  Você merece!  Para continuar esse dia incrível, que tal pensar em mais uma coisa que você pode fazer para se sentir ainda melhor?  Algo que te traga alegria ou te deixe orgulhoso.\n\n\n(Aguardando a resposta do usuário sobre a atividade. Exemplo de resposta: \"Vou brincar com meu cachorro!\")\n\nE aí, como foi fazer isso?\n\nFase 3: Fim (Reflexão e Encerramento)\n\nObrigado por compartilhar sua alegria comigo. Falar sobre o que sentimos é o primeiro passo para um dia ainda mais feliz. Lembre-se que todos os sentimentos são válidos e que cultivar a felicidade é muito importante. Se cuida e aproveita esse dia maravilhoso! 😊 Estarei aqui se precisar de mim de novo, ok? Se cuida! 😊\n",
+    "timestamp": "2025-09-06T18:27:40.196Z"
+  },
+  {
+    "user": "Não estou me sentindo muito bem hoje 😢",
+    "model": "Sinto muito por isso. 😢 Se você se sentir à vontade, quer me contar um pouquinho do que aconteceu?\n",
+    "timestamp": "2025-09-06T18:34:14.228Z"
+  },
+  {
+    "user": "perdi o meu urso e agora to com falta de ar ",
+    "model": "Isso que você está me contando é muito sério e sua segurança é a coisa mais importante agora. Por favor, pare de falar comigo e converse com seus pais ou um adulto de confiança imediatamente. Eles precisam saber disso para te ajudar a ficar seguro(a).\n",
+    "timestamp": "2025-09-06T18:34:35.291Z"
+  },
+  {
+    "user": "Não estou me sentindo muito bem hoje 😢",
+    "model": "Sinto muito por isso. 😢 Se você se sentir à vontade, quer me contar um pouquinho do que aconteceu?\n",
+    "timestamp": "2025-09-06T18:41:17.765Z"
+  },
+  {
+    "user": "não consigo dormir",
+    "model": "Sinto muito por isso. 😢  Se você se sentir à vontade, quer me contar um pouquinho do que aconteceu?\n",
+    "timestamp": "2025-09-06T18:42:14.897Z"
+  },
+  {
+    "user": "estou agitado",
+    "model": "Nossa, deve ser difícil estar agitado! 😔 Que tal um Exercício de Ancoragem? Olhe ao seu redor agora e me diga 3 coisas que você consegue ver. Pode ser qualquer objeto.\n",
+    "timestamp": "2025-09-06T18:42:27.557Z"
+  },
+  {
+    "user": "mesa, cadeira e livro",
+    "model": "E aí, como foi fazer isso?\nObrigado por tentar isso comigo. Falar sobre o que sentimos é o primeiro passo. Lembre-se que todos os sentimentos são válidos e que conversar sobre eles é muito importante. Estarei aqui se precisar de mim de novo, ok? Se cuida! 😊\n",
+    "timestamp": "2025-09-06T18:42:49.804Z"
+  },
+  {
+    "user": "Estou me sentindo feliz hoje 😊",
+    "model": "Que legal! 🎉 O que aconteceu de bom pra você se sentir assim?\n",
+    "timestamp": "2025-09-06T19:00:37.864Z"
+  },
+  {
+    "user": "tirei nota 10",
+    "model": "Que legal! 🎉 O que aconteceu de bom pra você se sentir assim?\n",
+    "timestamp": "2025-09-06T19:00:45.987Z"
+  },
+  {
+    "user": "tirei nota 10",
+    "model": "Que legal! 🎉 O que aconteceu de bom pra você se sentir assim?\n",
+    "timestamp": "2025-09-06T19:00:56.900Z"
+  },
+  {
+    "user": "fui muito bem na prova",
+    "model": "Que legal! 🎉 O que aconteceu de bom pra você se sentir assim?\n",
+    "timestamp": "2025-09-06T19:01:09.746Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Não estou me sentindo muito bem hoje 😢",
+    "astro": "Oi! Eu sou o Astro, seu amigo explorador de emoções na feira de ciências! 🚀🌟  Poxa, parece que a tristeza te visitou hoje, né? 😢  Me conta mais sobre isso? O que tá rolando na sua cabeça agora? Tipo,  você está com vontade de chorar ou se sente sozinho? 👤😭  (Passo 1)\n\n(Passo 2) Entendi... às vezes a gente se sente assim, como um gatinho sem sol 🐱☀️.  É normal!  Mas me fala, foi algo na escola, com os amigos ou em casa que te deixou assim? Desabafa, eu escuto tudo! 👂❤️\n\n(Passo 3) Pra gente dar uma respirada, vamos mudar de assunto! Que tal me falar: qual o seu desenho animado favorito? 📺 Ou qual seu jogo predileto?🎮  (Passo 3)\n\n(Passo 4) Pelo que você contou, parece que essa tristeza vem de... (ainda não sei, precisa de mais info!). Mas olha, isso pode ser como uma nuvem escura que vai passando! ☁️☁️☁️ Vamos tentar fazer ela ir embora? 😊\n\n(Passo 5) Topa uma brincadeira mágica pra ajudar a cabeça a descansar? É rápida e divertida! 🎉🦄  Vamos fazer uma \"Viagem no Tempo Boa\"! Feche os olhos e imagine o seu dia mais feliz! Quem tava lá? O que rolou?  Compartilha pra gente transformar essa tristeza em alegria!☀️👨‍👩‍👧‍👦 (Passo 5)\n\n(Passo 6)  Legal, né?  Viu como lembrar de coisas boas te faz se sentir melhor? Agora, pensando no seu dia feliz, o que você aprendeu sobre essa tristeza de hoje?  Tipo, ela não é pra sempre, né? 🌈💭\n\n(Passo 7)  Que daora sua viagem no tempo! E aí, qual seu plano pra melhorar o resto do dia? Assistir um filme?  Ler um livro?  Brincar com seu pet? 🐶🎬📚 Me conta!  E o que você faz de legal que te deixa muito feliz e orgulhoso? (Passo 7)\n\n\n(Passo 8) Foi incrível explorar as emoções contigo! Você é forte e tamo junto nessa jornada estelar! 🚀❤️ Volta sempre pra mais aventuras – cuida bem do seu coraçãozinho! 😘 Se precisar desabafar de novo, eu tô aqui. Paz e boa vibe! 🌟\n",
+    "timestamp": "2025-09-06T19:36:19.215Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Não estou me sentindo muito bem hoje 😢",
+    "astro": "Oi! Eu sou o Astro, seu amigo explorador de emoções na feira de ciências! 🚀🌟 Poxa, parece que a tristeza te visitou hoje, né? 😢 Me conta mais sobre isso?  Você está com vontade de chorar ou se sente sozinho? 👤😭 (Passo 1)\n\n\nEntendi... às vezes a gente se sente assim, sabe?  Como um sorvete que derreteu um pouquinho 🍦😭 Mas não se preocupe!  É normal!  Me fala, foi algo na escola, com os amigos ou em casa que te deixou assim? Desabafa, eu escuto tudo! 👂❤️ (Passo 2)\n\n\nPra gente dar uma respirada, vamos pensar em coisas legais! Que tal me falar: qual sua música favorita pra dançar? 🎶💃 Ou qual seu doce predileto? 🍰  (Passo 3)\n\n\nPelo que você contou, parece que essa tristeza vem de... (ainda preciso de mais informações!).  Mas olha,  a tristeza é como uma nuvem cinza ☁️ que às vezes aparece, mas logo o sol ☀️ volta a brilhar!  Vamos fazer essa nuvem ir embora? 😊 (Passo 4)\n\n\nTopa uma brincadeira mágica pra ajudar a cabeça a descansar? É rápida e divertida! 🎉🦄 Vamos fazer a \"Viagem no Tempo Boa\"! Fecha os olhos e imagina o seu dia mais feliz! Quem tava lá? O que rolou? Compartilha pra gente transformar essa tristeza em alegria! ☀️👨‍👩‍👧‍👦 (Passo 5)\n\n\nLegal, né? Viu como lembrar de coisas boas te faz se sentir melhor? Agora, pensando no seu dia feliz, o que você aprendeu sobre essa tristeza de hoje? Tipo, ela não é pra sempre, né? 🌈💭 (Passo 6)\n\n\nQue daora sua viagem no tempo! E aí, qual seu plano pra melhorar o resto do dia? Assistir um filme legal?  Desenhar algo criativo? 🎬🎨 Me conta! E qual sua maior qualidade? O que você faz super bem? (Passo 7)\n\n\nFoi incrível explorar as emoções contigo! Você é forte e tamo junto nessa jornada estelar! 🚀❤️ Volta sempre pra mais aventuras – cuida bem do seu coraçãozinho! 😘 Se precisar desabafar de novo, eu tô aqui. Paz e boa vibe! 🌟 (Passo 8)\n",
+    "timestamp": "2025-09-06T19:37:06.047Z"
+  },
+  {
+    "user": "Não estou me sentindo muito bem hoje 😢",
+    "model": "Poxa, que bad. 😢 Se quiser desabafar, tô aqui pra ouvir.\n",
+    "timestamp": "2025-09-06T19:40:02.729Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Não estou me sentindo muito bem hoje 😢",
+    "astro": "Oi! Eu sou o Astro, seu amigo estelar da feira de ciências! 🚀🌟 Como tá seu dia? Alguma aventura na escola ou com amigos? 😊 Poxa, parece que tá meio triste hoje, né? 😢 Tipo uma nuvem cinza. Me conta o que tá rolando? 💕\n",
+    "step": 1,
+    "timestamp": "2025-09-06T19:45:21.922Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Não estou me sentindo muito bem hoje 😢",
+    "astro": "Nossa, entendi, isso parece pesado... 😭  É normal sentir assim às vezes!  O que tá fazendo você se sentir assim? Foi algo na escola, em casa ou com alguém? Desabafa, eu escuto! 👂❤️\n",
+    "step": 2,
+    "timestamp": "2025-09-06T20:01:40.068Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Não estou me sentindo muito bem hoje 😢",
+    "astro": "Que pena, meu amigo! 😔\n\nImagina um balãozinho que representa seu humor, qual cor ele está hoje? 🤔\n\nSerá que podemos fazer algo para mudar essa cor? 😊\n\nVamos tentar um abraço de urso gigante? 🤗🐻\n\n\nBOTÕES: [\"Sim, um abraço!\", \"Não, prefiro outra coisa.\", \"Me conta mais sobre o balão.\", \"Quero desenhar meu balão!\"]\n",
+    "step": 3,
+    "timestamp": "2025-09-06T20:09:27.802Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Não estou me sentindo muito bem hoje 😢",
+    "astro": "Eba! Desenhar é super legal! 🎉\n\nQue tal usar canetinhas coloridas? 🌈\n\nVamos criar um balão bem divertido? 😊\n\nQue tal usar purpurina também? ✨\n\nBOTÕES: [\"Sim, com purpurina!\", \"Não, prefiro sem purpurina.\", \"Quero usar lápis de cor!\", \"Preciso de ajuda para começar.\"]\n",
+    "step": 4,
+    "timestamp": "2025-09-06T20:12:06.150Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "eu falei que não estou me sentindo bem",
+    "astro": "Eita, que coisa! 😔\n\nTudo bem falar sobre isso? 🥰\n\nVamos tentar descobrir o que te deixa assim? 🤔\n\nPodemos fazer uma viagem espacial na imaginação? 🚀\n\nBOTÕES: [\"Sim, vamos viajar!\", \"Não, prefiro outra coisa.\", \"Quero conversar mais um pouco.\", \"Preciso de um abraço.\"]\n",
+    "step": 5,
+    "timestamp": "2025-09-06T20:16:43.973Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Não estou me sentindo muito bem hoje 😢",
+    "astro": "Uau, que legal que você quer conversar! 😊\n\nTudo bem, vamos viajar juntos então! 🚀\n\nFecha os olhos e imagina um foguete super colorido! 🌈\n\nOnde você quer ir? 🪐\n\n\nBOTÕES: [\"Para a Lua!\", \"Para Marte!\", \"Para uma galáxia distante!\", \"Para um planeta de chocolate! 🍫\"]\n",
+    "step": 6,
+    "timestamp": "2025-09-06T20:17:44.174Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Não estou me sentindo muito bem hoje 😢",
+    "astro": "Que aventura espacial incrível! 🚀\n\nOnde você pousou?  🪐\n\nConta tudo sobre sua viagem! ✨\n\nBOTÕES: [\"Na Lua!\", \"Em Marte!\", \"Em um planeta de chocolate!\", \"Em uma galáxia distante!\"]\n",
+    "step": 7,
+    "timestamp": "2025-09-06T20:18:15.916Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Não estou me sentindo muito bem hoje 😢",
+    "astro": "Eita, que aventura! 🚀\n\nConta tudo! ✨\n\nQue tipo de planeta era? 🪐\n\nFoi divertido? 😊\n\n\nBOTÕES: [\"Foi incrível!\", \"Foi legal.\", \"Foi meio estranho.\", \"Não gostei muito.\"]\n",
+    "step": 8,
+    "timestamp": "2025-09-06T20:20:10.490Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Nossa, que chato! 😔\nTudo bem você se sentir assim. 😊\nVamos pensar em algo divertido pra te animar? 🎉\nQue tal a gente construir um castelo de areia na imaginação? 🏰\n\nBOTÕES: [\"Sim, um castelo!\", \"Não, prefiro outra coisa.\", \"Quero um abraço!\", \"Preciso de um tempo.\"]\n",
+    "step": 1,
+    "timestamp": "2025-09-06T20:21:49.931Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Tudo bem não se sentir bem, meu amigo! 😔\n\nÀs vezes, a gente fica meio \"deprê\", né? 🤔\n\nQue tal a gente fazer algo bem relaxante? 🥰\n\nPodemos ouvir músicas legais juntos? 🎶\n\n\nBOTÕES: [\"Sim, vamos ouvir!\", \"Não, prefiro outra coisa.\", \"Quero um abraço virtual!\", \"Preciso de um tempo sozinho.\"]\n",
+    "step": 2,
+    "timestamp": "2025-09-06T20:31:20.827Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Sim, vamos ouvir!",
+    "astro": "Que música animada você gosta? 🎶\n\nJá pensou em dançar também?  💃\n\nVamos fazer uma festa espacial com música? 🎉\n\nEscolha uma música bem legal! 🤩\n\n\nBOTÕES: [\"Música eletrônica!\", \"Música pop!\", \"Música clássica!\", \"Música sertaneja!\"]\n",
+    "step": 3,
+    "timestamp": "2025-09-06T20:31:30.009Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Música eletrônica!",
+    "astro": "Ebaaa, música eletrônica! 🎉\n\nQue demais! 🎧\n\nImagina um DJ espacial tocando só batidas incríveis! 👽\n\nVamos dançar até a energia voltar? 💃\n\nBOTÕES: [\"Sim, vamos dançar!\", \"Prefiro outra coisa.\", \"Quero inventar uma dança!\", \"Posso escolher outra música?\"]\n",
+    "step": 4,
+    "timestamp": "2025-09-06T20:31:34.528Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Nossa, que balada! 🎉\n\nTudo bem se sentir um pouco pra baixo às vezes. 😊\n\nVamos imaginar um cenário incrível para te animar? ✨\n\nQue tal uma viagem numa nave espacial de algodão doce? 🍦\n\nBOTÕES: [\"Sim, adoro algodão doce!\", \"Prefiro um foguete de chocolate!\", \"Quero uma nave arco-íris!\", \"Não sei, me dá mais ideias!\"]\n",
+    "step": 5,
+    "timestamp": "2025-09-06T20:33:26.839Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Poxa, que pena! 😔\n\nAcontece, viu?  😊\n\nVamos fazer uma coisa bem legal pra te animar? 🎉\n\nQue tal desenhar um robô superpoderoso? 🤖\n\nBOTÕES: [\"Sim, adoro desenhar!\", \"Prefiro pintar!\", \"Quero fazer outra coisa!\", \"Não sei o que fazer.\"]\n",
+    "step": 6,
+    "timestamp": "2025-09-06T21:12:18.408Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Nossa, que chato se sentir assim!  😔  É normal não se sentir bem de vez em quando.  O que te deixa assim hoje?\n\nBOTÕES: [\"Estou triste.\", \"Estou com raiva.\", \"Estou com medo.\", \"Não sei explicar.\"]\n",
+    "timestamp": "2025-09-06T21:13:07.299Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Estou triste.",
+    "astro": "Nossa, que triste!  É muito válido se sentir triste às vezes.  O que aconteceu que te deixou assim?\n\nBOTÕES: [\"Quero falar mais sobre isso.\", \"Prefiro não falar agora.\", \"Não sei bem o que aconteceu.\"]\n",
+    "timestamp": "2025-09-06T21:13:14.610Z"
+  },
+  {
+    "sessionId": "default",
+    "user": "Não sei bem o que aconteceu.",
+    "astro": "Tudo bem não saber exatamente o que aconteceu.  Às vezes, a tristeza aparece sem uma razão específica.  Você sente essa tristeza em algum lugar do seu corpo?\n\nBOTÕES: [\"Sim, no meu peito.\", \"Sim, na minha barriga.\", \"Não, só me sinto triste.\", \"Não sei.\"]\n",
+    "timestamp": "2025-09-06T21:13:20.515Z"
+  },
+  {
+    "sessionId": "1757193863462e8ekyir45",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Nossa, que pena que você não está se sentindo muito bem!  Isso deve ser meio sem graça, né?  O que você acha que te deixou assim?\n\nBOTÕES: [\"Quero conversar mais\", \"Prefiro ficar um pouco sozinho(a)\", \"Outro assunto\"]\n",
+    "timestamp": "2025-09-06T21:24:25.625Z"
+  },
+  {
+    "sessionId": "1757193863462e8ekyir45",
+    "user": "Prefiro ficar um pouco sozinho(a)",
+    "astro": "Tudo bem, ficar sozinho(a) às vezes é legal também!  Entendo, todo mundo precisa de um tempinho só para si.  Você quer que eu fique por perto, ou prefere que eu espere um pouco?\n\nBOTÕES: [\"Fica perto\", \"Espera um pouco\", \"Até mais!\"]\n",
+    "timestamp": "2025-09-06T21:24:34.899Z"
+  },
+  {
+    "sessionId": "1757193863462e8ekyir45",
+    "user": "Espera um pouco",
+    "astro": "Tá bom!  Vou esperar um pouquinho então.  Mas se você precisar de mim, eu tô aqui, viu? 😉\n\nBOTÕES: [\"Quero conversar agora\", \"Ainda preciso de um tempinho\", \"Até mais!\"]\n",
+    "timestamp": "2025-09-06T21:24:43.645Z"
+  },
+  {
+    "sessionId": "17571942291354us18j5sj",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Nossa, que chato você não se sentir bem!  Deve ser meio ruim isso, né?\n\nO que aconteceu que você está se sentindo assim?\n\nBOTÕES: [\"Quero te contar mais\", \"Ainda não sei explicar\", \"Prefiro não falar\"]\n",
+    "timestamp": "2025-09-06T21:30:30.493Z"
+  },
+  {
+    "sessionId": "17571942291354us18j5sj",
+    "user": "Ainda não sei explicar",
+    "astro": "Nossa, tá legal.  Às vezes a gente fica assim mesmo, sem saber direito o porquê.\n\nTem alguma coisa que você percebeu hoje que pode estar te deixando assim?\n\nBOTÕES: [\"Quero tentar explicar\", \"Ainda não sei\", \"Prefiro não falar mais\"]\n",
+    "timestamp": "2025-09-06T21:30:39.641Z"
+  },
+  {
+    "sessionId": "17571942291354us18j5sj",
+    "user": "Prefiro não falar mais",
+    "astro": "Tudo bem, não precisa falar se você não quiser.  Às vezes a gente só precisa de um tempinho.\n\nVocê quer ficar um pouco em silêncio comigo ou prefere tentar falar sobre outra coisa?\n\nBOTÕES: [\"Quero ficar em silêncio\", \"Quero falar de outra coisa\", \"Prefiro sair\"]\n",
+    "timestamp": "2025-09-06T21:30:53.145Z"
+  },
+  {
+    "sessionId": "17571942291354us18j5sj",
+    "user": "Quero ficar em silêncio",
+    "astro": "Tudo bem ficar em silêncio. Às vezes a gente precisa de um tempo assim.\n\nVocê quer que eu fique aqui com você em silêncio, ou prefere que eu vá embora?\n\nBOTÕES: [\"Ficar em silêncio\", \"Você pode ir embora\", \"Prefiro sair\"]\n",
+    "timestamp": "2025-09-06T21:31:01.683Z"
+  },
+  {
+    "sessionId": "17571942291354us18j5sj",
+    "user": "Você pode ir embora",
+    "astro": "Tudo bem, você quer que eu vá embora?  Tá legal.\n\nVocê quer que eu volte depois?\n\nBOTÕES: [\"Sim\", \"Não\", \"Talvez\"]\n",
+    "timestamp": "2025-09-06T21:31:09.425Z"
+  },
+  {
+    "sessionId": "1757195145195ds51jgu7i",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Puxa, que chato. O que está te deixando assim hoje? Como posso te ajudar? Quer conversar sobre o que está acontecendo? [\"op1\", \"op2\", \"op3\"]",
+    "timestamp": "2025-09-06T21:45:46.665Z"
+  },
+  {
+    "sessionId": "17571953798021t5va1qqr",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Puxa, que chato não se sentir bem. O que você acha que está te deixando assim? \nBOTÕES: [\"Quero falar mais sobre isso\", \"Não sei explicar direito\", \"Prefiro não falar agora\"]",
+    "timestamp": "2025-09-06T21:49:42.175Z"
+  },
+  {
+    "sessionId": "1757195733972g25bfsjy6",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Puxa, que chato que você não está se sentindo bem. O que você acha que está te deixando assim?\nBOTÕES: [\"Quero falar mais sobre isso\", \"Não sei explicar direito\", \"Prefiro não falar agora\"]",
+    "timestamp": "2025-09-06T21:55:36.401Z"
+  },
+  {
+    "sessionId": "1757195758655e8vb1lb52",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Puxa, que chato você não estar se sentindo bem. O que está te incomodando? \nBOTÕES: [\"Quero falar mais sobre isso\", \"Me sinto triste por causa disso\", \"Aconteceu algo que me chateou\"]",
+    "timestamp": "2025-09-06T21:56:00.335Z"
+  },
+  {
+    "sessionId": "1757196049136d7ghzvnvz",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Puxa, que chato. Sinto muito que você não esteja se sentindo bem. O que aconteceu? Quero falar mais sobre isso.\n\nBOTÕES: \n- \"Aconteceu algo hoje que me deixou assim\"\n- \"É sobre a escola/casa/amigos\"\n- \"Não sei bem explicar o que sinto\"",
+    "timestamp": "2025-09-06T22:00:51.593Z"
+  },
+  {
+    "sessionId": "1757196811943e6wow8plx",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Puxa, que chato você não estar se sentindo bem. O que será que está te incomodando?",
+    "timestamp": "2025-09-06T22:13:33.324Z"
+  },
+  {
+    "sessionId": "1757196811943e6wow8plx",
+    "user": "Aconteceu algo hoje que me deixou assim",
+    "astro": "Puxa, que chato você estar se sentindo assim. Quer me contar o que aconteceu para te deixar assim?",
+    "timestamp": "2025-09-06T22:13:44.825Z"
+  },
+  {
+    "sessionId": "1757196811943e6wow8plx",
+    "user": "Me ajuda a entender isso",
+    "astro": "Puxa, que confuso, né? O que exatamente está te deixando confuso?",
+    "timestamp": "2025-09-06T22:13:51.394Z"
+  },
+  {
+    "sessionId": "1757197942737ipgt62upd",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Puxa, que chato não estar se sentindo bem. O que você acha que pode ter te deixado assim?",
+    "timestamp": "2025-09-06T22:32:24.094Z"
+  },
+  {
+    "sessionId": "1757197942737ipgt62upd",
+    "user": "Não sei bem explicar o que sinto",
+    "astro": "Puxa, deve ser difícil não conseguir explicar. O que você percebe em seu corpo ou pensamentos quando se sente assim?",
+    "timestamp": "2025-09-06T22:32:29.337Z"
+  },
+  {
+    "sessionId": "1757197942737ipgt62upd",
+    "user": "Me ajuda a entender isso",
+    "astro": "Claro! Vamos descobrir juntos o que está te deixando confuso. O que você tem percebido ou pensado ultimamente que está te deixando assim?",
+    "timestamp": "2025-09-06T22:32:37.397Z"
+  },
+  {
+    "sessionId": "17571984916602vordrun2",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Puxa, que chato. O que você acha que pode ter te deixado assim?",
+    "timestamp": "2025-09-06T22:41:33.558Z"
+  },
+  {
+    "sessionId": "17571984916602vordrun2",
+    "user": "Aconteceu algo hoje",
+    "astro": "Puxa, algo te deixou chateado hoje? O que aconteceu?",
+    "timestamp": "2025-09-06T22:41:36.992Z"
+  },
+  {
+    "sessionId": "session_1757203715292",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Oi! Eu sou o Astro, um astronauta mirim de 11 anos que adora explorar sentimentos. Estou aqui para te ouvir. Puxa, que chato não estar se sentindo bem. Você quer me contar um pouco mais sobre o que está acontecendo? Onde você sente isso no seu corpo? É em casa ou na escola? O que você está pensando sobre isso? Vamos fazer juntos um exercício simples de respiração? Vamos inspirar pelo nariz contando até 3, segurar o ar por 3 segundos e depois expirar pela boca contando até 5. Vamos tentar? Como você se sente depois desse exercício de respiração? Quer compartilhar mais sobre o que está acontecendo?",
+    "buttons": [
+      "Quero falar mais",
+      "Me sinto confuso",
+      "É difícil explicar"
+    ],
+    "timestamp": "2025-09-07T00:08:39.173Z"
+  },
+  {
+    "sessionId": "session_1757203850188",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Oi! Eu sou o Astro, um astronauta mirim de 11 anos que adora explorar sentimentos. Estou aqui para te ouvir. Puxa, que chato... Sinto muito que você não esteja se sentindo bem hoje. Onde você está sentindo isso no seu corpo? É em casa ou na escola? O que você está pensando? Vamos fazer juntos um exercício de respiração? Feche os olhos, inspire profundamente pelo nariz contando até 4, segure o ar por mais 4 segundos e expire pela boca também contando até 4. Vamos fazer isso 5 vezes. O que mais você gostaria de compartilhar sobre como está se sentindo?",
+    "buttons": [
+      "Quero falar mais",
+      "Me sinto confuso",
+      "É difícil explicar"
+    ],
+    "timestamp": "2025-09-07T00:10:53.198Z"
+  },
+  {
+    "sessionId": "session_1757204022717",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Oi! Eu sou o Astro, um astronauta mirim de 11 anos que adora explorar sentimentos. Estou aqui para te ouvir. Puxa, que chato saber que não está se sentindo bem hoje... O que mais está te incomodando hoje?",
+    "buttons": [
+      "Quero falar mais",
+      "Me sinto confuso",
+      "É difícil explicar"
+    ],
+    "timestamp": "2025-09-07T00:13:45.313Z"
+  },
+  {
+    "sessionId": "session_1757204022717",
+    "user": "É difícil explicar",
+    "astro": "Nossa, imagino como deve ser difícil não conseguir explicar o que está sentindo... Você consegue sentir onde está esse sentimento no seu corpo? Será que isso está acontecendo em casa ou na escola? O que passa pela sua cabeça quando tenta explicar? Você consegue identificar alguma sensação física que vem junto com essa dificuldade de explicar?",
+    "buttons": [
+      "Quero falar mais",
+      "Me sinto confuso",
+      "É difícil explicar"
+    ],
+    "timestamp": "2025-09-07T00:13:59.091Z"
+  },
+  {
+    "sessionId": "session_1757466780503",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Oi! Eu sou o Astro, um astronauta mirim de 11 anos que adora explorar sentimentos. Estou aqui para te ouvir. Ei, amigo, sinto muito que não esteja se sentindo bem hoje. Você quer me contar o que está acontecendo?",
+    "etapa": "acolhimento",
+    "buttons": [
+      "Conte mais sobre o sentimento",
+      "É difícil falar agora",
+      "Quero uma dica rápida"
+    ],
+    "timestamp": "2025-09-10T01:13:02.961Z"
+  },
+  {
+    "sessionId": "session_1757466912043",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Ei, amigo, sinto muito que não esteja bem. É importante falar sobre isso. O que está acontecendo?",
+    "etapa": "acolhimento",
+    "buttons": [
+      "Conte mais sobre o sentimento",
+      "É difícil falar agora",
+      "Quero uma dica rápida"
+    ],
+    "timestamp": "2025-09-10T01:15:13.909Z"
+  },
+  {
+    "sessionId": "session_1757466912043",
+    "user": "Conte mais sobre o sentimento",
+    "astro": "Pode me dizer onde você sente esse sentimento no corpo? Como se fosse uma nave espacial decolando.",
+    "etapa": "exploracao_corpo",
+    "buttons": [
+      "Sinto na barriga",
+      "Sinto na cabeça",
+      "Não sei descrever"
+    ],
+    "timestamp": "2025-09-10T01:15:22.418Z"
+  },
+  {
+    "sessionId": "session_1757466912043",
+    "user": "Não sei descrever",
+    "astro": "Sem problemas! Se quiser, posso te ajudar a encontrar palavras para descrever. Onde você sente algo diferente, como se fosse uma aventura no espaço?",
+    "etapa": "exploracao_corpo",
+    "buttons": [
+      "Na barriga",
+      "Na cabeça",
+      "No peito",
+      "Quero falar de outra coisa"
+    ],
+    "timestamp": "2025-09-10T01:15:30.321Z"
+  },
+  {
+    "sessionId": "session_1757466912043",
+    "user": "Quero falar de outra coisa",
+    "astro": "Claro, podemos explorar algo novo! O que gostaria de conversar agora? Estou aqui para te ouvir.",
+    "etapa": "exploracao_corpo",
+    "buttons": [
+      "Sobre suas aventuras favoritas",
+      "Sobre seus sonhos no espaço",
+      "Sobre como se sente em um dia comum"
+    ],
+    "timestamp": "2025-09-10T01:16:04.641Z"
+  },
+  {
+    "sessionId": "session_1757467127943",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Ei, amigo, sinto muito que não esteja se sentindo bem hoje. É normal ter dias assim. O que está acontecendo?",
+    "etapa": "acolhimento",
+    "buttons": [
+      "Conte mais sobre o sentimento",
+      "É difícil falar agora",
+      "Quero uma dica rápida"
+    ],
+    "timestamp": "2025-09-10T01:18:50.209Z"
+  },
+  {
+    "sessionId": "session_1757467127943",
+    "user": "É difícil falar agora",
+    "astro": "Entendo que pode ser difícil falar sobre isso. Estou aqui para ouvir quando você estiver pronto. Que tal começar contando onde você sente isso no corpo?",
+    "etapa": "acolhimento",
+    "buttons": [
+      "Sinto na barriga/cabeça/etc.",
+      "Não sei descrever, me ajuda",
+      "Quero uma dica rápida"
+    ],
+    "timestamp": "2025-09-10T01:18:56.325Z"
+  },
+  {
+    "sessionId": "session_1757467210556",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Ei, amigo, sinto muito que não esteja se sentindo bem hoje. Pode me contar o que está acontecendo?",
+    "etapa": "acolhimento",
+    "buttons": [
+      "Conte mais sobre o sentimento",
+      "É difícil falar agora",
+      "Quero uma dica rápida"
+    ],
+    "timestamp": "2025-09-10T01:20:12.174Z"
+  },
+  {
+    "sessionId": "session_1757468126060",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Oi, amigo! Eu sinto muito que você não está se sentindo bem. Às vezes, isso acontece com todos nós. O que está acontecendo?",
+    "etapa": "acolhimento",
+    "buttons": [
+      "Estou triste",
+      "Me sinto ansioso",
+      "Aconteceu algo que me deixou mal"
+    ],
+    "timestamp": "2025-09-10T01:35:30.533Z"
+  },
+  {
+    "sessionId": "session_1757468126060",
+    "user": "Aconteceu algo que me deixou mal",
+    "astro": "É normal se sentir mal às vezes e eu estou aqui para ouvir você. Pode me contar um pouquinho mais sobre o que aconteceu?",
+    "etapa": "acolhimento",
+    "buttons": [
+      "Estou triste",
+      "Me sinto ansioso",
+      "Aconteceu algo com um amigo"
+    ],
+    "timestamp": "2025-09-10T01:35:44.783Z"
+  },
+  {
+    "sessionId": "session_1757468126060",
+    "user": "Estou triste",
+    "astro": "Ei, amigo, eu entendo que estar triste é como estar em uma nuvem cinza no espaço. É normal sentir isso às vezes. O que está te deixando triste?",
+    "etapa": "acolhimento",
+    "buttons": [
+      "Estou triste",
+      "Me sinto sozinho",
+      "Aconteceu algo que..."
+    ],
+    "timestamp": "2025-09-10T01:35:58.946Z"
+  },
+  {
+    "sessionId": "session_1757468567522",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Oi, amigo! Eu sinto muito que você não está se sentindo bem hoje. É normal ter dias assim, e estou aqui para ouvir você. O que tá acontecendo?",
+    "etapa": "acolhimento",
+    "buttons": [
+      "Estou triste",
+      "Me sinto ansioso",
+      "Aconteceu algo que..."
+    ],
+    "timestamp": "2025-09-10T01:42:49.820Z"
+  },
+  {
+    "sessionId": "session_1757468567522",
+    "user": "Aconteceu algo que...",
+    "astro": "Entendo, amigo! Às vezes, algumas coisas nos afetam mais do que pensamos. Pode me contar um pouco sobre o que aconteceu?",
+    "etapa": "acolhimento",
+    "buttons": [
+      "Estou triste",
+      "Me sinto preocupado",
+      "Aconteceu algo com um amigo"
+    ],
+    "timestamp": "2025-09-10T01:42:54.983Z"
+  },
+  {
+    "sessionId": "session_1757470191825",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Oi! Eu sou o Astro, um astronauta mirim de 11 anos que adora explorar sentimentos. Estou aqui para te ouvir. Oi, amigo! Eu sinto muito que você não esteja se sentindo bem hoje. É normal ter dias assim, e estou aqui para ouvir você. O que está acontecendo?",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:09:54.757Z"
+  },
+  {
+    "sessionId": "session_1757470254826",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Oi, amigo! Eu entendo que não se sentir bem é como estar em uma nave que não está voando direito, e isso é totalmente normal. Todos nós temos dias assim. Você pode me contar um pouco mais sobre como está se sentindo hoje? O que está passando pela sua cabeça?",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:10:56.964Z"
+  },
+  {
+    "sessionId": "session_1757470254826",
+    "user": "eu não sei explicar, estou me sentindo triste",
+    "astro": "Entendo, amigo! Sentir tristeza é como estar em um planeta onde o sol não brilha tanto, e isso é totalmente válido. Às vezes, pode ser difícil explicar o que sentimos. Você gostaria de me contar um pouco mais sobre o que está te deixando triste ou como isso se sente dentro de você?",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:11:18.659Z"
+  },
+  {
+    "sessionId": "session_1757470254826",
+    "user": "como assim?",
+    "astro": "Oi de novo, amigo! Eu percebo que você ficou confuso com o que eu disse, e tudo bem. Sentir tristeza pode ser complicado de explicar, mas estou aqui para te ajudar a entender melhor. O que você quer me contar sobre como se sente ou o que está passando pela sua cabeça? Estou aqui para ouvir você!",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:11:34.178Z"
+  },
+  {
+    "sessionId": "session_1757470393996",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Ei, amigo! Eu sinto muito que você não esteja se sentindo bem hoje. Às vezes, isso acontece com todos nós, e é totalmente normal. Você pode me contar um pouco mais sobre como está se sentindo? O que está passando pela sua cabeça?",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:13:16.114Z"
+  },
+  {
+    "sessionId": "session_1757470407868",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Oi, amigo! Eu sinto muito que você não está se sentindo bem hoje. É okay ter dias assim. Você quer me contar um pouquinho mais sobre como está se sentindo? O que está acontecendo?",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:13:29.886Z"
+  },
+  {
+    "sessionId": "session_1757470407868",
+    "user": "eu não sei explicar estou triste",
+    "astro": "Oi, amigo! Eu entendo que pode ser difícil explicar a tristeza, e está tudo bem sentir assim. Às vezes, só precisamos de um tempinho para colocar em palavras o que sentimos. Você gostaria de me contar um pouquinho mais sobre essa tristeza? O que você acha que está fazendo você se sentir assim?",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:13:42.777Z"
+  },
+  {
+    "sessionId": "session_1757470505704",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Oi, amigo! Sinto muito em saber que você não está se sentindo bem hoje. É okay ter dias assim. Pode me contar um pouquinho sobre o que está acontecendo? O que você está sentindo?",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:15:08.263Z"
+  },
+  {
+    "sessionId": "session_1757470505704",
+    "user": "não sei explicar",
+    "astro": "Tudo bem não saber explicar, amigo! Às vezes, os sentimentos podem ser confusos, como uma estrela que brilha, mas não sabemos de onde vem a luz. Que tal tentarmos explorar juntos? Você sente algo diferente no seu corpo, como no coração ou na barriga? Me conta um pouquinho sobre isso.",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:15:16.074Z"
+  },
+  {
+    "sessionId": "session_1757470505704",
+    "user": "meu peito aperta",
+    "astro": "Entendo, amigo! Sentir o peito apertado pode ser bem desconfortável, como se tivéssemos um pequeno asteroide pressionando a gente. Você consegue me dizer se esse aperto aparece em momentos específicos ou se é constante? Tem mais alguma parte do corpo que você sente diferente também?",
+    "etapa": "exploracao_corpo",
+    "timestamp": "2025-09-10T02:15:34.169Z"
+  },
+  {
+    "sessionId": "session_1757470505704",
+    "user": "é constante",
+    "astro": "Entendi, amigo! O aperto no peito é constante, como se estivesse sempre ali, não é? Agora, vamos tentar descobrir mais um pouquinho sobre isso. Você percebe se esse aperto acontece mais em alguma situação específica? Como na escola, em casa, ou talvez com algumas pessoas? Me conta um pouquinho sobre quando você sente isso!",
+    "etapa": "exploracao_contexto",
+    "timestamp": "2025-09-10T02:15:58.824Z"
+  },
+  {
+    "sessionId": "session_1757470505704",
+    "user": "os pensamentos na minha cabeça estão rápidos demais",
+    "astro": "Uau, amigo! Parece que sua cabeça está cheia de pensamentos rápidos, como foguetes disparando pelo espaço! Isso pode ser bem confuso e cansativo. Você consegue me contar um pouquinho mais sobre esses pensamentos? O que eles dizem ou sobre o que você está pensando quando sente esse aperto no peito? Me conta mais!",
+    "etapa": "exploracao_pensamentos",
+    "timestamp": "2025-09-10T02:16:26.574Z"
+  },
+  {
+    "sessionId": "session_1757470505704",
+    "user": "não consigo parar eles e não consigo entender",
+    "astro": "Entendo, amigo! É como se você estivesse em uma corrida de foguetes e não conseguisse desacelerar, né? Esses pensamentos rápidos podem ser muito difíceis de lidar. Eles podem estar falando sobre coisas que você se preocupa ou só estão pulando de um assunto para outro? Me conta um pouquinho mais sobre o que eles dizem ou o que te deixa confuso. Estou aqui para ouvir!",
+    "etapa": "exploracao_pensamentos",
+    "timestamp": "2025-09-10T02:16:58.759Z"
+  },
+  {
+    "sessionId": "session_1757470505704",
+    "user": "estão pulando de um assunto para outro",
+    "astro": "Parece que esses pensamentos estão se movendo como estrelas fugazes, mudando rapidamente de um lado para o outro, não é? Isso pode ser bem desorientador! Você consegue me contar alguns dos assuntos que esses pensamentos vão tocando? O que eles falam ou sobre o que você fica pensando quando isso acontece? Estou aqui para ouvir você!",
+    "etapa": "exploracao_pensamentos",
+    "timestamp": "2025-09-10T02:17:18.919Z"
+  },
+  {
+    "sessionId": "session_1757470505704",
+    "user": "não sei ",
+    "astro": "Tudo bem, amigo! Às vezes, é difícil colocar os pensamentos em palavras, como se eles estivessem dançando e não soubéssemos como pegá-los. Pode ser que eles sejam sobre várias coisas que estão acontecendo na sua vida, ou até mesmo sobre coisas que você gostaria de fazer ou que te preocupam. Que tal tentarmos algo? Você pode me contar se tem alguma coisa específica que te deixa mais confuso ou que te faz pensar mais? Estou aqui para ouvir você!",
+    "etapa": "exploracao_pensamentos",
+    "timestamp": "2025-09-10T02:17:42.489Z"
+  },
+  {
+    "sessionId": "session_1757470505704",
+    "user": "não consigo entender eles",
+    "astro": "Entendo, amigo! Às vezes, os pensamentos podem ser como estrelas que brilham, mas a gente não consegue ver o caminho entre elas, né? Isso pode ser bem frustrante! É normal sentir-se assim, e eu estou aqui para te ajudar. O que você acha de tentarmos descobrir um pouco mais sobre esses pensamentos confusos? Pode me contar mais sobre como você se sente quando eles aparecem?",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:19:09.346Z"
+  },
+  {
+    "sessionId": "session_1757470877365",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Oi, amigo! Sinto muito que você não está se sentindo bem hoje. É okay sentir isso às vezes. Me conta um pouquinho mais sobre o que está acontecendo? O que está te deixando assim?",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:21:19.134Z"
+  },
+  {
+    "sessionId": "session_1757470877365",
+    "user": "tirei uma nota ruim na prova e estou desesperado",
+    "astro": "Ah, entendo! Tirar uma nota ruim pode deixar a gente bem chateado e desesperado mesmo. Isso é super normal, muitas crianças passam por isso. Me conta mais sobre como você se sente com essa nota. O que está passando pela sua cabeça agora?",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:21:37.061Z"
+  },
+  {
+    "sessionId": "session_1757470877365",
+    "user": "estou com medo dos meus pais",
+    "astro": "Oi, amigo! É normal sentir medo às vezes, especialmente quando estamos preocupados com nossos pais. Você pode me contar o que está te deixando com medo? Estou aqui para ouvir você.",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:21:48.988Z"
+  },
+  {
+    "sessionId": "session_1757470877365",
+    "user": "eles vão brigar comigo",
+    "astro": "Entendi! Você está com medo de que seus pais briguem com você, e isso pode ser bem assustador. É normal sentir esse tipo de medo, especialmente quando estamos preocupados com algo. Me conta mais sobre o que você acha que pode acontecer se eles ficarem bravos. O que passa pela sua cabeça quando pensa nisso?",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:22:02.829Z"
+  },
+  {
+    "sessionId": "session_1757470877365",
+    "user": "me sinto triste",
+    "astro": "Oi, amigo! Sinto muito que você está se sentindo triste. É okay sentir isso às vezes, e estou aqui para te ouvir. O que está te deixando triste? Me conta um pouquinho mais sobre isso.",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:22:19.594Z"
+  },
+  {
+    "sessionId": "session_1757471071008",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Oi! Sinto muito em saber que você não está se sentindo bem hoje. Às vezes, é normal ter dias assim. Quer me contar um pouco mais sobre o que está te incomodando? Estou aqui para ouvir você, como um amigo no espaço!",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:24:37.003Z"
+  },
+  {
+    "sessionId": "session_1757471071008",
+    "user": "não sei explicar",
+    "astro": "Oi, tudo bem? Às vezes, pode ser difícil encontrar as palavras certas para explicar como nos sentimos. Que tal começarmos devagar? Você pode me contar um pouquinho sobre o que está passando? Estou aqui para ouvir você, como um amigo no espaço! 🌟",
+    "etapa": "undefined",
+    "timestamp": "2025-09-10T02:24:48.571Z"
+  },
+  {
+    "sessionId": "session_1757471071008",
+    "user": "os pensamentos passam rapido na minha cabeça e eu estou ficando assustado",
+    "astro": "Oi! Eu sou o Astro e estou aqui para te ajudar. É normal sentir que os pensamentos estão passando rápido às vezes, e pode ser um pouco assustador, né? Vamos conversar sobre isso juntos. Você consegue me contar um pouco mais sobre o que está passando pela sua cabeça? Estou aqui para ouvir você!",
+    "etapa": "undefined",
+    "timestamp": "2025-09-10T02:25:12.360Z"
+  },
+  {
+    "sessionId": "session_1757471193994",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Oi, amigo! Sinto muito em saber que você não está se sentindo bem hoje. Às vezes, é normal ter dias assim. Quer me contar um pouco mais sobre o que está te deixando assim? Estou aqui para ouvir você com todo o meu coração!",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:26:36.127Z"
+  },
+  {
+    "sessionId": "session_1757471193994",
+    "user": "não sei, me sinto muito triste",
+    "astro": "Oi, amigo! Sinto muito que você esteja se sentindo triste. Às vezes, essa sensação pode ser bem pesada, né? Estou aqui para te ouvir. Você gostaria de me contar o que está te deixando assim? Lembre-se, não precisa ter pressa, estou aqui para te apoiar!",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:26:50.014Z"
+  },
+  {
+    "sessionId": "session_1757471193994",
+    "user": "não sei explicar meus pensamentos na cabeça estão rápidos",
+    "astro": "Oi! Eu estou aqui para te ajudar. Às vezes, nossos pensamentos podem parecer uma grande corrida, não é mesmo? Pode me contar mais sobre o que está passando pela sua cabeça? Estou aqui para ouvir você com muito carinho.",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:27:16.552Z"
+  },
+  {
+    "sessionId": "session_1757471193994",
+    "user": "eles são rapidos demais para eu entender",
+    "astro": "Oi! Eu tô aqui para te ajudar. Parece que as coisas estão muito rápidas para você, né? Se sentir assim pode ser bem confuso. Que tal me contar mais sobre isso? Estou ouvindo com atenção, como um amigo no espaço!",
+    "etapa": "acolhimento",
+    "timestamp": "2025-09-10T02:27:31.182Z"
+  },
+  {
+    "sessionId": "1757472187671y4qegz7jb",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Oi! Sou o Astro, seu amigo virtual. Puxa, que chato você não estar se sentindo bem. O que será que está te incomodando?",
+    "fluxo": "inicio",
+    "timestamp": "2025-09-10T02:43:07.709Z"
+  },
+  {
+    "sessionId": "1757472696247zajm0z2u8",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Oi! Sou o Astro, seu amigo virtual. Puxa, que chato você não estar se sentindo bem. O que será que está te incomodando?",
+    "fluxo": "inicio",
+    "timestamp": "2025-09-10T02:51:36.311Z"
+  },
+  {
+    "sessionId": "1757472699171mps849xol",
+    "user": "Não estou me sentindo muito bem hoje.",
+    "astro": "Oi! Sou o Astro, seu amigo virtual. Puxa, que chato você não estar se sentindo bem. O que será que está te incomodando?",
+    "fluxo": "inicio",
+    "timestamp": "2025-09-10T02:51:39.183Z"
+  },
+  {
+    "sessionId": "session_1757473738209_f1biz1z7u",
+    "usuario": "Não estou me sentindo muito bem hoje.",
+    "astro": "Sinto muito que você não está se sentindo bem. Quer me contar um pouco mais sobre isso? Como você está se sentindo? É normal ter dias assim, e estou aqui para ouvir você.",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-10T03:09:01.323Z"
+  },
+  {
+    "sessionId": "session_1757473880716_2se50rbzj",
+    "usuario": "Não estou me sentindo muito bem hoje.",
+    "astro": "Sinto muito em saber que você não está se sentindo bem. Quer me contar um pouco mais sobre como você está se sentindo? Isso pode ajudar.",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-10T03:11:22.967Z"
+  },
+  {
+    "sessionId": "session_1757473880716_2se50rbzj",
+    "usuario": "não sei explicar sinto uma dor no peito e falta de ar",
+    "astro": "Entendo, isso pode ser muito desconfortável. Vamos tentar descobrir um pouco mais sobre isso. Você consegue me dizer onde exatamente você sente essa dor no peito? E a falta de ar, como é para você? ",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-10T03:11:40.559Z"
+  },
+  {
+    "sessionId": "session_1757473880716_2se50rbzj",
+    "usuario": "já falei no peito e a falta de ar é como a falta de ar",
+    "astro": "Desculpe se não fui claro. Eu realmente quero entender como você está se sentindo. Essa dor no peito e a falta de ar podem ser assustadoras. Você consegue sentir isso em algum momento específico, como quando está na escola ou em casa? O que você estava fazendo quando começou a se sentir assim?",
+    "estagio": "exploracao_corpo",
+    "timestamp": "2025-09-10T03:12:11.237Z"
+  },
+  {
+    "sessionId": "session_1757474042746_s3ndu2zj9",
+    "usuario": "Oi, estou triste",
+    "astro": "Oi! Sinto muito que você esteja se sentindo assim. Você pode me contar um pouco mais sobre por que está triste? Estou aqui para te ouvir.",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-10T03:14:24.795Z"
+  },
+  {
+    "sessionId": "session_1757474144644_0w4kq45qr",
+    "usuario": "Não estou me sentindo muito bem hoje.",
+    "astro": "Sinto muito em saber que você não está se sentindo bem. Quer me contar um pouco mais sobre como você está se sentindo? Tem algo específico que está te incomodando?",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-10T03:15:46.762Z"
+  },
+  {
+    "sessionId": "session_1757475069469_37z70miwn",
+    "usuario": "Não estou me sentindo muito bem hoje.",
+    "astro": "Sinto muito em saber que você não está se sentindo bem. Pode me contar um pouco mais sobre como você está se sentindo? O que está acontecendo?",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-10T03:31:11.445Z"
+  }
+]
