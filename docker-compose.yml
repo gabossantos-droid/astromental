@@ -2,7 +2,19 @@ version: '3.8'
 
 services:
   backend:
-    image: node:18-alpine
+    image: no    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.astro-frontend.rule=Host(`app.saudemental.icu`)"
+      - "traefik.http.routers.astro-frontend.tls=true"
+      - "traefik.http.routers.astro-frontend.tls.certresolver=letsencryptresolver"
+      - "traefik.http.routers.astro-frontend.entrypoints=websecure"
+      - "traefik.http.routers.astro-frontend.priority=100"
+      - "traefik.http.services.astro-frontend.loadbalancer.server.port=80"
+      - "traefik.docker.network=wegetnet"
+      - "traefik.http.routers.astro-frontend-insecure.rule=Host(`app.saudemental.icu`)"
+      - "traefik.http.routers.astro-frontend-insecure.entrypoints=web"
+      - "traefik.http.routers.astro-frontend-insecure.middlewares=redirect-to-https"
+      - "traefik.http.routers.astro-frontend-insecure.priority=100"
     working_dir: /app
     environment:
       - NODE_ENV=production
@@ -15,7 +27,7 @@ services:
       - "traefik.enable=true"
       - "traefik.http.routers.astro-backend.rule=Host(`app.saudemental.icu`) && PathPrefix(`/api`)"
       - "traefik.http.routers.astro-backend.tls=true"
-      - "traefik.http.routers.astro-backend.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.astro-backend.tls.certresolver=letsencryptresolver"
       - "traefik.http.routers.astro-backend.entrypoints=websecure"
       - "traefik.http.routers.astro-backend.priority=100"
       - "traefik.http.services.astro-backend.loadbalancer.server.port=8081"
@@ -59,7 +71,7 @@ services:
       - "traefik.http.routers.astro-frontend.tls.certresolver=letsencrypt"
       - "traefik.http.routers.astro-frontend.entrypoints=websecure"
       - "traefik.http.routers.astro-frontend.priority=100"
-      - "traefik.http.services.astro-frontend.loadbalancer.server.port=80"
+      - "traefik.http.services.astro-frontend.loadbalancer.server.port=8280"
       - "traefik.docker.network=wegetnet"
       - "traefik.http.routers.astro-frontend-insecure.rule=Host(`app.saudemental.icu`)"
       - "traefik.http.routers.astro-frontend-insecure.entrypoints=web"
