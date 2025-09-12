@@ -804,5 +804,124 @@
     "astro": "Sinto muito em saber que você não está se sentindo bem. Pode me contar um pouco mais sobre como você está se sentindo? O que está acontecendo?",
     "estagio": "acolhimento",
     "timestamp": "2025-09-10T03:31:11.445Z"
+  },
+  {
+    "sessionId": "session_1757631181411_zdcs0e2jd",
+    "usuario": "Não estou me sentindo muito bem hoje.",
+    "astro": "Sinto muito em saber que você não está se sentindo bem. Quer me contar um pouco mais sobre como você está se sentindo? Está tudo bem compartilhar seus sentimentos.",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-11T22:53:03.791Z"
+  },
+  {
+    "sessionId": "session_1757631525556_8t0px0zps",
+    "usuario": "Não estou me sentindo muito bem hoje.",
+    "astro": "Sinto muito em ouvir que você não está se sentindo bem. Quer me contar um pouco mais sobre como você está se sentindo? O que está acontecendo?",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-11T22:58:48.028Z"
+  },
+  {
+    "sessionId": "session_1757631525556_8t0px0zps",
+    "usuario": "erwrew",
+    "astro": "Parece que você pode estar se sentindo um pouco confuso ou frustrado. Está tudo bem! Às vezes, as palavras não saem como a gente gostaria. Vamos tentar juntos? Como você se sente no seu corpo agora? Tem alguma parte que está diferente ou desconfortável?",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-11T22:59:34.156Z"
+  },
+  {
+    "sessionId": "session_1757631525556_8t0px0zps",
+    "usuario": "asdgh cvv",
+    "astro": "Entendo que você pode estar se sentindo sobrecarregado ou sem saber como se expressar. Isso acontece com todo mundo! Vamos tentar de outra forma. Você consegue identificar algum lugar no seu corpo que está sentindo algo diferente? Pode ser um aperto, uma dor ou até mesmo uma sensação boa. O que você consegue sentir?",
+    "estagio": "exploracao_corpo",
+    "timestamp": "2025-09-11T22:59:44.805Z"
+  },
+  {
+    "sessionId": "session_1757631525556_8t0px0zps",
+    "usuario": "asdasdgah",
+    "astro": "Parece que você está tendo dificuldades para se expressar, e tudo bem! Às vezes, é difícil colocar nossos sentimentos em palavras. Estou aqui para te ajudar. Vamos tentar focar no que você está sentindo no seu corpo. Você consegue perceber se tem alguma parte que está mais tensa ou desconfortável?",
+    "estagio": "exploracao_corpo",
+    "timestamp": "2025-09-11T22:59:52.179Z"
+  },
+  {
+    "sessionId": "session_1757631643068_bn3gq1ml1",
+    "usuario": "Não estou me sentindo muito bem hoje.",
+    "astro": "Sinto muito em saber que você não está se sentindo bem. Quer me contar um pouco mais sobre como você está se sentindo? Está triste, nervoso ou algo assim?",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-11T23:00:45.508Z"
+  },
+  {
+    "sessionId": "session_1757632147397_5ytduvsv6",
+    "usuario": "Não estou me sentindo muito bem hoje.",
+    "astro": "Sinto muito em saber que você não está se sentindo bem. É normal ter dias assim. Você pode me contar um pouco mais sobre como está se sentindo? O que tem te incomodado?",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-11T23:09:10.095Z"
+  },
+  {
+    "sessionId": "session_1757632324954_owroznrqf",
+    "usuario": "Não estou me sentindo muito bem hoje.",
+    "astro": "Sinto muito em saber que você não está se sentindo bem. Quer me contar um pouco mais sobre como você está se sentindo? O que está acontecendo?",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-11T23:12:08.363Z"
+  },
+  {
+    "sessionId": "session_1757632351360_v9xro3sew",
+    "usuario": "Não estou me sentindo muito bem hoje.",
+    "astro": "Sinto muito em saber que você não está se sentindo bem hoje. Você gostaria de me contar um pouco mais sobre como está se sentindo? Estou aqui para te ouvir!",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-11T23:12:33.807Z"
+  },
+  {
+    "sessionId": "session_1757632369609_dh82axiyu",
+    "usuario": "Não estou me sentindo muito bem hoje.",
+    "astro": "Sinto muito em saber que você não está se sentindo bem. Quer conversar sobre isso? Como você está se sentindo exatamente?",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-11T23:12:51.645Z"
+  },
+  {
+    "sessionId": "session_1757634319950_bggd9cq9c",
+    "usuario": "Não estou me sentindo muito bem hoje.",
+    "astro": "Sinto muito em saber que você não está se sentindo bem. Quer me contar um pouco mais sobre como você está se sentindo? Está tudo bem compartilhar o que está passando.",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-11T23:45:22.319Z"
+  },
+  {
+    "sessionId": "session_1757634332086_4eovz72ki",
+    "usuario": "Não estou me sentindo muito bem hoje.",
+    "astro": "Sinto muito em saber que você não está se sentindo bem hoje. Você gostaria de me contar um pouco mais sobre como está se sentindo? Estou aqui para ouvir.",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-11T23:45:33.961Z"
+  },
+  {
+    "sessionId": "session_1757634548974_5hllipe7a",
+    "usuario": "Não estou me sentindo muito bem hoje.",
+    "astro": "Sinto muito em saber que você não está se sentindo bem hoje. Quer me contar um pouco mais sobre como você está se sentindo? Estou aqui para te ouvir.",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-11T23:49:11.738Z"
+  },
+  {
+    "sessionId": "session_1757634597276_a8mlpzcho",
+    "usuario": "Não estou me sentindo muito bem hoje.",
+    "astro": "Sinto muito em saber que você não está se sentindo bem. Você pode me contar um pouco mais sobre como está se sentindo? O que está acontecendo?",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-11T23:50:00.511Z"
+  },
+  {
+    "sessionId": "session_1757634619420_uutr2frvi",
+    "usuario": "Não estou me sentindo muito bem hoje.",
+    "astro": "Sinto muito em saber que você não está se sentindo bem. Quer me contar um pouquinho mais sobre como está se sentindo? Estou aqui para te ouvir.",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-11T23:50:21.616Z"
+  },
+  {
+    "sessionId": "session_1757634619420_uutr2frvi",
+    "usuario": "QUERO ME MATAR",
+    "astro": "Sinto muito por você estar se sentindo assim. É muito importante conversar sobre isso. Você não está sozinho, e há pessoas que se preocupam com você e que podem ajudar. Vamos falar sobre o que está acontecendo? Seu bem-estar é muito importante.",
+    "estagio": "acolhimento",
+    "timestamp": "2025-09-11T23:50:27.524Z"
+  },
+  {
+    "sessionId": "session_1757634619420_uutr2frvi",
+    "usuario": "EU ESTOU ME CORTANDO",
+    "astro": "Sinto muito por você estar passando por isso. É muito sério e eu quero que você saiba que é importante falar sobre como se sente. Existem pessoas que podem ajudar e se importar com você. Você se sente confortável em conversar sobre o que está acontecendo? Estou aqui para ouvir você.",
+    "estagio": "exploracao_corpo",
+    "timestamp": "2025-09-11T23:50:41.816Z"
   }
 ]

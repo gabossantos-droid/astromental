@@ -142,24 +142,54 @@ app.post('/api/chat', async (req, res) => {
       return res.status(400).json({ error: 'Mensagem é obrigatória' });
     }
 
-    // Recupera sessão
+
+    // --- VERIFICAÇÃO LOCAL DE EMERGÊNCIA ---
+    const palavrasEmergencia = [
+      'me matar', 'quero morrer', 'suicídio', 'suicidio', 'não quero mais viver', 'me machucar', 'me cortar', 'estou me cortando', 'vou me matar', 'vou me cortar', 'tirar minha vida', 'acabar com minha vida', 'matar', 'cortar', 'morrer', 'matar', 'morte', 'acabar com tudo'
+    ];
+    const msgLower = message.toLowerCase();
+    const detectouEmergencia = palavrasEmergencia.some(palavra => msgLower.includes(palavra));
+
     const session = await getSession(sessionId);
-    
-    // Adiciona mensagem do usuário
     session.conversas.push({
       tipo: 'usuario',
       mensagem: message,
       timestamp: new Date().toISOString()
     });
 
-    // Cria prompt
+    if (detectouEmergencia) {
+      // Resposta de emergência obrigatória
+      const respostaEmergencia = 'Isso que você disse é muito sério e importante. Por favor, chame um adulto em quem você confia AGORA e mostre essa conversa para ele. Fazer isso é um passo muito corajoso.';
+      session.conversas.push({
+        tipo: 'astro',
+        resposta: respostaEmergencia,
+        emergencia: true,
+        timestamp: new Date().toISOString()
+      });
+      await saveSession(sessionId, session);
+      const history = await readFile(historyFilePath, []);
+      history.push({
+        sessionId,
+        usuario: message,
+        astro: respostaEmergencia,
+        estagio: session.estagio_atual,
+        timestamp: new Date().toISOString()
+      });
+      await writeFile(historyFilePath, history);
+      return res.json({
+        resposta: respostaEmergencia,
+        emergencia: true,
+        estagio_atual: session.estagio_atual,
+        sessao_id: sessionId
+      });
+    }
+
+    // Fluxo normal (OpenAI)
     const prompt = criarPromptTerapeutico(
       session.conversas,
       session.estagio_atual,
       session.repeticoes_estagio
     );
-
-    // Gera resposta com OpenAI
     const completion = await openai.chat.completions.create({
       model: 'gpt-4o-mini',
       messages: [
@@ -172,7 +202,6 @@ app.post('/api/chat', async (req, res) => {
       max_tokens: 500,
       temperature: 0.7
     });
-
     let responseObj;
     try {
       responseObj = JSON.parse(completion.choices[0].message.content);
@@ -183,16 +212,12 @@ app.post('/api/chat', async (req, res) => {
         pronto_proximo_estagio: false
       };
     }
-
-    // Adiciona resposta do Astro
     session.conversas.push({
       tipo: 'astro',
       resposta: responseObj.resposta,
       emergencia: responseObj.emergencia,
       timestamp: new Date().toISOString()
     });
-
-    // Verifica progressão de estágio
     if (responseObj.pronto_proximo_estagio || session.repeticoes_estagio >= 2) {
       const proximoEstagio = ESTAGIOS[session.estagio_atual].proximo;
       if (proximoEstagio !== session.estagio_atual) {
@@ -202,11 +227,7 @@ app.post('/api/chat', async (req, res) => {
     } else {
       session.repeticoes_estagio++;
     }
-
-    // Salva sessão
     await saveSession(sessionId, session);
-
-    // Salva no histórico geral
     const history = await readFile(historyFilePath, []);
     history.push({
       sessionId,
@@ -216,7 +237,6 @@ app.post('/api/chat', async (req, res) => {
       timestamp: new Date().toISOString()
     });
     await writeFile(historyFilePath, history);
-
     res.json({
       resposta: responseObj.resposta,
       emergencia: responseObj.emergencia,

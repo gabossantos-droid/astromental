@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 import astroImage from './img/astro.jpg';
 import API_BASE_URL from './config';
 
 function App() {
-  // --- Estados do Componente ---
   const [showInitialScreen, setShowInitialScreen] = useState(true);
   const [messages, setMessages] = useState([]);
   const [inputValue, setInputValue] = useState('');
@@ -12,14 +11,12 @@ function App() {
   const [sessionId, setSessionId] = useState(null);
   const messageListRef = useRef(null);
 
-  // --- Efeitos ---
   useEffect(() => {
     if (messageListRef.current) {
       messageListRef.current.scrollTop = messageListRef.current.scrollHeight;
     }
   }, [messages]);
 
-  // Função para criar nova sessão
   const createNewSession = async () => {
     try {
       const response = await fetch(`${API_BASE_URL}/new-session`, {
@@ -37,11 +34,9 @@ function App() {
     }
   };
 
-  // --- Funções ---
   const sendMessage = async (messageText) => {
     if (!messageText) return;
     
-    // Se não há sessão ativa, cria uma nova
     let currentSessionId = sessionId;
     if (!currentSessionId) {
       currentSessionId = await createNewSession();
@@ -62,7 +57,6 @@ function App() {
         throw new Error('A resposta do servidor não foi OK');
       }
       const data = await response.json();
-      // Adiciona a resposta do Astro
       setMessages(prev => [
         ...prev,
         { type: 'model', text: data.resposta }
@@ -76,7 +70,6 @@ function App() {
   };
 
   const startNewConversation = async () => {
-    // Limpa o estado
     setMessages([]);
     setInputValue('');
     setSessionId(null);
@@ -95,70 +88,83 @@ function App() {
     setInputValue('');
   };
 
-  // --- Renderização do Componente ---
   if (showInitialScreen) {
     return (
-      <div className="astro-fullscreen">
-        <header className="astro-header">
-          <img src={astroImage} alt="Mascote Astro" className="astro-mascot" />
-          <h1>Astro</h1>
-        </header>
-        <div className="astro-initial">
-          <h2>Como você está se sentindo hoje?</h2>
-          <div className="astro-emoji-buttons">
-            <button onClick={() => handleInitialChoice('happy')} aria-label="Feliz">
-              <span role="img" aria-label="Feliz">🙂</span>
-            </button>
-            <button onClick={() => handleInitialChoice('sad')} aria-label="Triste">
-              <span role="img" aria-label="Triste">😔</span>
-            </button>
+      <React.Fragment>
+        <div className="stars-background"></div>
+        <div className="astro-fullscreen">
+          <div className="chat-container">
+            <header className="astro-header">
+              <div className="astro-header-content">
+                <img src={astroImage} alt="Mascote Astro" className="astro-mascot" />
+                <h1>Astro</h1>
+              </div>
+            </header>
+            <div className="astro-initial">
+              <h2>Como você está se sentindo hoje?</h2>
+              <div className="astro-emoji-buttons">
+                <button onClick={() => handleInitialChoice('happy')} aria-label="Feliz">
+                  <span role="img" aria-label="Feliz">😊</span>
+                </button>
+                <button onClick={() => handleInitialChoice('sad')} aria-label="Triste">
+                  <span role="img" aria-label="Triste">😔</span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </React.Fragment>
     );
   }
 
   return (
-    <div className="astro-fullscreen">
-      <header className="astro-header">
-        <img src={astroImage} alt="Mascote Astro" className="astro-mascot" />
-        <h1>Astro</h1>
-        {!showInitialScreen && (
-          <button 
-            className="new-conversation-btn" 
-            onClick={startNewConversation}
-            title="Iniciar nova conversa"
-          >
-            🔄 Nova Conversa
-          </button>
-        )}
-      </header>
-      <div className="astro-main" ref={messageListRef}>
-        {messages.map((msg, index) => (
-          <div key={index} className={`astro-msg ${msg.type}`}>{msg.text}</div>
-        ))}
-        {isLoading && (
-          <div className="astro-msg model typing-indicator">
-            <div className="dot"></div>
-            <div className="dot"></div>
-            <div className="dot"></div>
+    <React.Fragment>
+      <div className="stars-background"></div>
+      <div className="astro-fullscreen">
+        <div className="chat-container">
+          <header className="astro-header">
+            <div className="astro-header-content">
+              <img src={astroImage} alt="Mascote Astro" className="astro-mascot" />
+              <h1>Astro</h1>
+            </div>
+            <button 
+              className="new-conversation-btn" 
+              onClick={startNewConversation}
+              title="Iniciar nova conversa"
+            >
+              🔄 Nova Conversa
+            </button>
+          </header>
+          <div className="astro-main" ref={messageListRef}>
+            {messages.map((msg, index) => (
+              <div key={index} className={`astro-msg ${msg.type}`}>
+                {msg.text}
+              </div>
+            ))}
+            {isLoading && (
+              <div className="astro-msg model typing-indicator">
+                <div className="dot"></div>
+                <div className="dot"></div>
+                <div className="dot"></div>
+              </div>
+            )}
           </div>
-        )}
+          <form className="astro-form" onSubmit={handleSubmit}>
+            <input
+              type="text"
+              value={inputValue}
+              onChange={(e) => setInputValue(e.target.value)}
+              placeholder="Digite sua mensagem..."
+              aria-label="Digite sua mensagem"
+              disabled={isLoading}
+            />
+            <button type="submit" disabled={!inputValue.trim() || isLoading} aria-label="Enviar mensagem">
+              ➤
+            </button>
+          </form>
+        </div>
       </div>
-      <form className="astro-form" onSubmit={handleSubmit}>
-        <input
-          type="text"
-          value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
-          placeholder="Digite sua mensagem..."
-          aria-label="Digite sua mensagem"
-          disabled={isLoading}
-        />
-        <button type="submit" disabled={!inputValue.trim() || isLoading} aria-label="Enviar mensagem">
-          ➤
-        </button>
-      </form>
-    </div>
+    </React.Fragment>
   );
 }
 

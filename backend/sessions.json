@@ -693,5 +693,276 @@
     "estagio_atual": "acolhimento",
     "repeticoes_estagio": 1,
     "criado_em": "2025-09-10T03:31:09.469Z"
+  },
+  "session_1757631181411_zdcs0e2jd": {
+    "conversas": [
+      {
+        "tipo": "usuario",
+        "mensagem": "Não estou me sentindo muito bem hoje.",
+        "timestamp": "2025-09-11T22:53:01.449Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Sinto muito em saber que você não está se sentindo bem. Quer me contar um pouco mais sobre como você está se sentindo? Está tudo bem compartilhar seus sentimentos.",
+        "emergencia": false,
+        "timestamp": "2025-09-11T22:53:03.788Z"
+      }
+    ],
+    "estagio_atual": "acolhimento",
+    "repeticoes_estagio": 1,
+    "criado_em": "2025-09-11T22:53:01.411Z"
+  },
+  "session_1757631525556_8t0px0zps": {
+    "conversas": [
+      {
+        "tipo": "usuario",
+        "mensagem": "Não estou me sentindo muito bem hoje.",
+        "timestamp": "2025-09-11T22:58:45.988Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Sinto muito em ouvir que você não está se sentindo bem. Quer me contar um pouco mais sobre como você está se sentindo? O que está acontecendo?",
+        "emergencia": false,
+        "timestamp": "2025-09-11T22:58:48.018Z"
+      },
+      {
+        "tipo": "usuario",
+        "mensagem": "erwrew",
+        "timestamp": "2025-09-11T22:59:32.429Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Parece que você pode estar se sentindo um pouco confuso ou frustrado. Está tudo bem! Às vezes, as palavras não saem como a gente gostaria. Vamos tentar juntos? Como você se sente no seu corpo agora? Tem alguma parte que está diferente ou desconfortável?",
+        "emergencia": false,
+        "timestamp": "2025-09-11T22:59:34.129Z"
+      },
+      {
+        "tipo": "usuario",
+        "mensagem": "asdgh cvv",
+        "timestamp": "2025-09-11T22:59:42.498Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Entendo que você pode estar se sentindo sobrecarregado ou sem saber como se expressar. Isso acontece com todo mundo! Vamos tentar de outra forma. Você consegue identificar algum lugar no seu corpo que está sentindo algo diferente? Pode ser um aperto, uma dor ou até mesmo uma sensação boa. O que você consegue sentir?",
+        "emergencia": false,
+        "timestamp": "2025-09-11T22:59:44.794Z"
+      },
+      {
+        "tipo": "usuario",
+        "mensagem": "asdasdgah",
+        "timestamp": "2025-09-11T22:59:50.054Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Parece que você está tendo dificuldades para se expressar, e tudo bem! Às vezes, é difícil colocar nossos sentimentos em palavras. Estou aqui para te ajudar. Vamos tentar focar no que você está sentindo no seu corpo. Você consegue perceber se tem alguma parte que está mais tensa ou desconfortável?",
+        "emergencia": false,
+        "timestamp": "2025-09-11T22:59:52.173Z"
+      }
+    ],
+    "estagio_atual": "exploracao_corpo",
+    "repeticoes_estagio": 1,
+    "criado_em": "2025-09-11T22:58:45.559Z"
+  },
+  "session_1757631643068_bn3gq1ml1": {
+    "conversas": [
+      {
+        "tipo": "usuario",
+        "mensagem": "Não estou me sentindo muito bem hoje.",
+        "timestamp": "2025-09-11T23:00:43.185Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Sinto muito em saber que você não está se sentindo bem. Quer me contar um pouco mais sobre como você está se sentindo? Está triste, nervoso ou algo assim?",
+        "emergencia": false,
+        "timestamp": "2025-09-11T23:00:45.501Z"
+      }
+    ],
+    "estagio_atual": "acolhimento",
+    "repeticoes_estagio": 1,
+    "criado_em": "2025-09-11T23:00:43.068Z"
+  },
+  "session_1757632147397_5ytduvsv6": {
+    "conversas": [
+      {
+        "tipo": "usuario",
+        "mensagem": "Não estou me sentindo muito bem hoje.",
+        "timestamp": "2025-09-11T23:09:07.474Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Sinto muito em saber que você não está se sentindo bem. É normal ter dias assim. Você pode me contar um pouco mais sobre como está se sentindo? O que tem te incomodado?",
+        "emergencia": false,
+        "timestamp": "2025-09-11T23:09:10.087Z"
+      }
+    ],
+    "estagio_atual": "acolhimento",
+    "repeticoes_estagio": 1,
+    "criado_em": "2025-09-11T23:09:07.398Z"
+  },
+  "session_1757632324954_owroznrqf": {
+    "conversas": [
+      {
+        "tipo": "usuario",
+        "mensagem": "Não estou me sentindo muito bem hoje.",
+        "timestamp": "2025-09-11T23:12:05.062Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Sinto muito em saber que você não está se sentindo bem. Quer me contar um pouco mais sobre como você está se sentindo? O que está acontecendo?",
+        "emergencia": false,
+        "timestamp": "2025-09-11T23:12:08.348Z"
+      }
+    ],
+    "estagio_atual": "acolhimento",
+    "repeticoes_estagio": 1,
+    "criado_em": "2025-09-11T23:12:04.955Z"
+  },
+  "session_1757632351360_v9xro3sew": {
+    "conversas": [
+      {
+        "tipo": "usuario",
+        "mensagem": "Não estou me sentindo muito bem hoje.",
+        "timestamp": "2025-09-11T23:12:31.459Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Sinto muito em saber que você não está se sentindo bem hoje. Você gostaria de me contar um pouco mais sobre como está se sentindo? Estou aqui para te ouvir!",
+        "emergencia": false,
+        "timestamp": "2025-09-11T23:12:33.795Z"
+      }
+    ],
+    "estagio_atual": "acolhimento",
+    "repeticoes_estagio": 1,
+    "criado_em": "2025-09-11T23:12:31.361Z"
+  },
+  "session_1757632369609_dh82axiyu": {
+    "conversas": [
+      {
+        "tipo": "usuario",
+        "mensagem": "Não estou me sentindo muito bem hoje.",
+        "timestamp": "2025-09-11T23:12:49.672Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Sinto muito em saber que você não está se sentindo bem. Quer conversar sobre isso? Como você está se sentindo exatamente?",
+        "emergencia": false,
+        "timestamp": "2025-09-11T23:12:51.630Z"
+      }
+    ],
+    "estagio_atual": "acolhimento",
+    "repeticoes_estagio": 1,
+    "criado_em": "2025-09-11T23:12:49.609Z"
+  },
+  "session_1757634319950_bggd9cq9c": {
+    "conversas": [
+      {
+        "tipo": "usuario",
+        "mensagem": "Não estou me sentindo muito bem hoje.",
+        "timestamp": "2025-09-11T23:45:20.075Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Sinto muito em saber que você não está se sentindo bem. Quer me contar um pouco mais sobre como você está se sentindo? Está tudo bem compartilhar o que está passando.",
+        "emergencia": false,
+        "timestamp": "2025-09-11T23:45:22.304Z"
+      }
+    ],
+    "estagio_atual": "acolhimento",
+    "repeticoes_estagio": 1,
+    "criado_em": "2025-09-11T23:45:19.951Z"
+  },
+  "session_1757634332086_4eovz72ki": {
+    "conversas": [
+      {
+        "tipo": "usuario",
+        "mensagem": "Não estou me sentindo muito bem hoje.",
+        "timestamp": "2025-09-11T23:45:32.218Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Sinto muito em saber que você não está se sentindo bem hoje. Você gostaria de me contar um pouco mais sobre como está se sentindo? Estou aqui para ouvir.",
+        "emergencia": false,
+        "timestamp": "2025-09-11T23:45:33.921Z"
+      }
+    ],
+    "estagio_atual": "acolhimento",
+    "repeticoes_estagio": 1,
+    "criado_em": "2025-09-11T23:45:32.086Z"
+  },
+  "session_1757634548974_5hllipe7a": {
+    "conversas": [
+      {
+        "tipo": "usuario",
+        "mensagem": "Não estou me sentindo muito bem hoje.",
+        "timestamp": "2025-09-11T23:49:09.115Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Sinto muito em saber que você não está se sentindo bem hoje. Quer me contar um pouco mais sobre como você está se sentindo? Estou aqui para te ouvir.",
+        "emergencia": false,
+        "timestamp": "2025-09-11T23:49:11.711Z"
+      }
+    ],
+    "estagio_atual": "acolhimento",
+    "repeticoes_estagio": 1,
+    "criado_em": "2025-09-11T23:49:08.975Z"
+  },
+  "session_1757634597276_a8mlpzcho": {
+    "conversas": [
+      {
+        "tipo": "usuario",
+        "mensagem": "Não estou me sentindo muito bem hoje.",
+        "timestamp": "2025-09-11T23:49:57.481Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Sinto muito em saber que você não está se sentindo bem. Você pode me contar um pouco mais sobre como está se sentindo? O que está acontecendo?",
+        "emergencia": false,
+        "timestamp": "2025-09-11T23:50:00.502Z"
+      }
+    ],
+    "estagio_atual": "acolhimento",
+    "repeticoes_estagio": 1,
+    "criado_em": "2025-09-11T23:49:57.283Z"
+  },
+  "session_1757634619420_uutr2frvi": {
+    "conversas": [
+      {
+        "tipo": "usuario",
+        "mensagem": "Não estou me sentindo muito bem hoje.",
+        "timestamp": "2025-09-11T23:50:19.490Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Sinto muito em saber que você não está se sentindo bem. Quer me contar um pouquinho mais sobre como está se sentindo? Estou aqui para te ouvir.",
+        "emergencia": false,
+        "timestamp": "2025-09-11T23:50:21.600Z"
+      },
+      {
+        "tipo": "usuario",
+        "mensagem": "QUERO ME MATAR",
+        "timestamp": "2025-09-11T23:50:25.902Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Sinto muito por você estar se sentindo assim. É muito importante conversar sobre isso. Você não está sozinho, e há pessoas que se preocupam com você e que podem ajudar. Vamos falar sobre o que está acontecendo? Seu bem-estar é muito importante.",
+        "emergencia": true,
+        "timestamp": "2025-09-11T23:50:27.511Z"
+      },
+      {
+        "tipo": "usuario",
+        "mensagem": "EU ESTOU ME CORTANDO",
+        "timestamp": "2025-09-11T23:50:39.901Z"
+      },
+      {
+        "tipo": "astro",
+        "resposta": "Sinto muito por você estar passando por isso. É muito sério e eu quero que você saiba que é importante falar sobre como se sente. Existem pessoas que podem ajudar e se importar com você. Você se sente confortável em conversar sobre o que está acontecendo? Estou aqui para ouvir você.",
+        "emergencia": false,
+        "timestamp": "2025-09-11T23:50:41.786Z"
+      }
+    ],
+    "estagio_atual": "exploracao_corpo",
+    "repeticoes_estagio": 0,
+    "criado_em": "2025-09-11T23:50:19.420Z"
   }
 }
